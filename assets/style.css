@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: #EEC0C6;
+}
+
+header {
+    background-color: #DB9F9E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+/* Estilos generales*/
+
+header .logo {
+    cursor: pointer;
+}
+
+header .logo img {
+    height: 85px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+header .logo img:hover {
+    transform: scale(1.2);
+}
+
+/* Estilos para el logo */
+
+header .navbar {
+    list-style-type: none;
+}
+
+header .navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+header .navbar li:hover {
+    transform: scale(1.1);
+}
+
+header .navbar a {
+    text-decoration: none;
+    color: #F5EFEF;
+}
+
+header .navbar a:hover {
+    color: #EEC0C6;
+}
+
+/* Estilos para el navbar */
+
+header .btn button {
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    padding: 8px 25px;
+    background: #FFDEE3;
+    transition: all 0.3s ease 0s;
+}
+
+header .btn button:hover {
+    transform: scale(1.1);
+    background-color: #F5EFEF;
+}
+
+/* Estilos para el button */
