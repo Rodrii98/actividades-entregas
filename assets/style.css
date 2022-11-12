@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
 
-/* General styles*/
-
 :root {
     /* Bg colors */ 
     --background: #EEC0C6;
     --bg-header: #DB9F9E;
+    --bg-primary-aqua: #D4FFF2;
     /* Text colors */
     --txt-primary-white: #FFFFFF;
-    --txt-primary-aqua: #D4FFF2;
     --txt-secondary-rose: #FFD2D8;
-    --txt-secondary-grey: #7D7D7D; 
+    --txt-secondary-grey: #9B9B9B; 
     --txt-secondary-black: #131415;
 
 }
@@ -40,7 +38,7 @@ header {
 
 }
 
-/* Estilos para el logo */
+/* Logo styles */
 
 .logo {
     cursor: pointer;
@@ -53,7 +51,7 @@ header {
     transform: scale(1.2);
 }
 
-/* Estilos para el navbar */
+/* navbar styles */
 
 .navbar li {
     display: inline-block;
@@ -72,7 +70,7 @@ header {
     color: var(--txt-secondary-rose);
 }
 
-/* Estilos para el button */
+/* Btn styles */
 
 header .btn button {
     border: none;
@@ -110,6 +108,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px ;
 }
 .hero-info {
     display: flex;
@@ -129,27 +129,27 @@ main {
 .hero-info p {
     font-size: 18px;
     width: 70%;
-    color: var(--txt-primary-aqua);
+    color: var(--txt-secondary-grey);
 
 }
 
 .hero-info a {
-    color: var(--txt-primary-aqua);
-    font-weight: 800;
+    color: var(--txt-secondary-grey);
+    font-weight: 600;
 }
 
 .hero-img {
-    width: 500px;
-    background: var(--txt-primary-aqua);
-    padding: 20px;
+    background: var(--bg-primary-aqua);
     border: 8px solid var(--bg-header);
+    color: var(--txt-secondary-black);
+    width: 500px;
+    padding: 20px;
     border-radius: 15px;
     display: flex;
-    gap: 20px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: var(--txt-secondary-black);
+    gap: 20px;
 }
 
 .hero-img > img {
@@ -164,13 +164,13 @@ main {
     flex-direction: row;
     justify-content: space-around;
     max-width: 1200px;
-    margin-top: 40px;
     gap: 50px;
+    margin-bottom: 150px;
 }
 
 .info-my,
 .info-desc {
-    background: var(--txt-primary-aqua);
+    background: var(--bg-primary-aqua);
     border-radius: 10px;
     border: 8px solid var(--bg-header);
     padding: 30px 10px;
