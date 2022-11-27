@@ -8,31 +8,30 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    <header>
-            <img src="./assets/img/logo.png" alt="Logo" class="logo"/>
-        <nav>
-            <ul class="navbar">
+    <header class="header">
+        <img src="./assets/img/logo.png" alt="Logo" class="logo"/>
+        <nav class="navbar">
+            <label for="toggle-menu"><img src="./assets/img/menu-hamburguesa.png" alt="menu-hamburguesa" class="menu-hamburguesa"></label>
+            <input type="checkbox" id="toggle-menu">
+            <ul class="navbar-list">
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Sobre mí</a></li>
                 <li><a href="#">Clientes</a></li>
+                <li><a href="#" class="btn">Contacto</a></li>
             </ul>
         </nav>
-        <a href="#" class="btn"><button>Contacto</button></a>
     </header>
-    <main>
+    <main class="main">
         <section id="hero">
             <div class="hero-info">
-                <h1> ¡Hola! Soy Rodrigo Fresart </h1>
+                <h1> ¡Hola, soy<span> Rodrigo Fresart!</span></h1>
                 <p> 
                     Futuro desarrollador web, aprendiendo de mano de los mejores,
                     <a href="https://www.nucba.com.ar/" target="_blank"> NUCBA </a>
                 </p>
-                
-            </div>
-            <div class="hero-img">
-                <img src="./assets/img/monitor-web.png" alt="Hero monitor-web" />
                 <p>Diseño Web | Javascript | React JS | Back End</p>
             </div>
+            <img src="./assets/img/hero-img.svg" alt="hero img" class="hero-img"/>
         </section>
         <section class="info">
             <div class="info-my">
@@ -41,6 +40,9 @@
                     decidí cambiar de aire y comencé a estudiar Desarrollo Web Full Stack en Nucba. 
                 </p>
             </div>
+            <img src="./assets/img/me.jpg" alt="Yo" class="info-img"/>
+        </section>
+        <section class="jobs">
             <div class="info-desc">
                 <h2> Mis avances </h2>
                 <p> Pequeña lista de actividades realizadas para Nucba </p>
