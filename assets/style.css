@@ -106,6 +106,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 200px 0px;
 }
 /*responsive*/
@@ -113,11 +114,15 @@
     #hero{
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+        text-align: center;
         gap: 200px;
     }
     .info{
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+        text-align: center;
         gap: 30px;
     }
     .info-my{
